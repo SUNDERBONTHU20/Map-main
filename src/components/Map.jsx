@@ -36,7 +36,7 @@ function Map() {
         <TileLayer url='https://tile.openstreetmap.org/{z}/{x}/{y}.png' 	attribution= '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'/>
         <Marker position={[position.lat,position.lng]} icon={redIcon}>
           <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
+            A pretty CSS3 popup. <br /> Easily customizable..
           </Popup>
         </Marker>
         
